@@ -4,16 +4,12 @@ import TextReveal from './TextReveal';
 
 const services = [
   {
-    title: "Digital Design",
-    items: ["Website Design", "UI/UX Design", "Mobile App Design", "Interactive Experiences"]
+    title: "Financial Consulting",
+    items: ["Valuation", "Investment Strategies", "Deal Sourcing", "Deal Negotiations"]
   },
   {
-    title: "Development",
-    items: ["Front-end Development", "Back-end Development", "E-commerce", "CMS Integration"]
-  },
-  {
-    title: "Branding",
-    items: ["Brand Strategy", "Visual Identity", "Brand Guidelines", "Logo Design"]
+    title: "Corporate Finance",
+    items: ["Financial Planning and Analysis", "Budgeting", "Cashflows", "Compliance"]
   },
   {
     title: "Strategy",
@@ -40,7 +36,7 @@ const ServicesSection: React.FC = () => {
           />
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 
