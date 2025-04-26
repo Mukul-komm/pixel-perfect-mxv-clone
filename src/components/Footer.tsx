@@ -7,11 +7,15 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           <div className="mb-6 md:mb-0">
-            <a href="/" className="font-heading text-2xl font-bold tracking-tighter">
-              MXV
+            <a 
+              href="/" 
+              className="font-heading text-2xl font-bold tracking-tighter bg-mxv-red px-3 py-1 rounded inline-block"
+            >
+              <span className="text-white">M.S Arden</span>
+              <span className="text-white text-sm block -mt-1">Consulting</span>
             </a>
             <p className="mt-2 text-sm text-gray-400">
-              Creating exceptional digital experiences since 2020
+              Creating exceptional financial experiences since 2020
             </p>
           </div>
           

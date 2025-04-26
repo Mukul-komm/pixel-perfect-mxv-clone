@@ -31,8 +31,12 @@ const NavigationBar: React.FC = () => {
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'py-4 bg-mxv-black bg-opacity-90 backdrop-blur-sm' : 'py-6'}`}>
         <div className="container mx-auto px-6 flex justify-between items-center">
-          <a href="/" className="font-heading text-2xl font-bold tracking-tighter text-mxv-white">
-            MXV
+          <a 
+            href="/" 
+            className="font-heading text-2xl font-bold tracking-tighter text-mxv-white bg-mxv-red px-3 py-1 rounded"
+          >
+            <span className="text-white">M.S Arden</span>
+            <span className="text-white text-sm block -mt-1">Consulting</span>
           </a>
           
           <button 
