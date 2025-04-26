@@ -1,12 +1,48 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useEffect } from 'react';
+import NavigationBar from '../components/NavigationBar';
+import HeroSection from '../components/HeroSection';
+import WorkSection from '../components/WorkSection';
+import AboutSection from '../components/AboutSection';
+import ServicesSection from '../components/ServicesSection';
+import ContactSection from '../components/ContactSection';
+import Footer from '../components/Footer';
+import CustomCursor from '../components/CustomCursor';
 
 const Index = () => {
+  useEffect(() => {
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="bg-mxv-black min-h-screen">
+      <CustomCursor />
+      <NavigationBar />
+      
+      <main>
+        <HeroSection />
+        <WorkSection />
+        <AboutSection />
+        <ServicesSection />
+        <ContactSection />
+      </main>
+      
+      <Footer />
     </div>
   );
 };
