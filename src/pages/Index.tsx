@@ -33,13 +33,13 @@ const Index = () => {
     <div className="bg-mxv-black min-h-screen">
       <CustomCursor />
       <NavigationBar />
-      
+
       <main>
-        <HeroSection />
-        <WorkSection />
-        <AboutSection />
-        <ServicesSection />
-        <ContactSection />
+      <HeroSection />
+      <ServicesSection />
+      <AboutSection />
+      <WorkSection />
+      <ContactSection />
       </main>
       
       <Footer />

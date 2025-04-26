@@ -17,18 +17,27 @@ const AboutSection: React.FC = () => {
           
           <div className="md:col-span-8 space-y-8">
             <TextReveal 
-              text="We are a dynamic management consulting firm based in India with a global presence. Our fresh approach and customised solutions have allowed us to successfully complete over 300 projects across various sectors."
+              text="We are a dynamic and energetic consulting firm based in India, passionately dedicated to fueling startup growth. Our core mission is to help you scale your business effectively, ensuring profitability remains paramount every step of the way."
               className="text-2xl md:text-3xl font-light leading-relaxed"
               tag="p"
               delay={200}
             />
             
-            <TextReveal 
-              text="We challenge conventions, work intimately in small teams, and deliver practical solutions with speed and agility. We don't rest untill we see results!"
-              className="text-2xl md:text-3xl font-light leading-relaxed"
-              tag="p"
-              delay={400}
-            />
+            <div >
+                <TextReveal 
+                text="We go beyond traditional consulting; we partner with you. We focus on making your company investment-ready while acting as dedicated guides alongside your founding team. Your vision becomes our vision."
+                className="text-2xl md:text-3xl font-light leading-relaxed"
+                tag="p"
+                delay={400}
+                />
+                
+                <TextReveal 
+                text="Delivering practical, actionable solutions isn't just a goal, it's our commitment. We thrive on challenges and are relentlessly dedicated to your success, remaining by your side until your objectives are achieved." className="text-2xl md:text-3xl font-light leading-relaxed mb-8"
+                className="text-2xl md:text-3xl font-light leading-relaxed"
+                tag="p"
+                delay={600}
+                />
+            </div>
           </div>
         </div>
       </div>
