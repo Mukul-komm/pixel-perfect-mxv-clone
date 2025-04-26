@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
           <div className="mb-6 md:mb-0">
             <a 
               href="/" 
-              className="font-heading text-2xl font-bold tracking-tighter bg-mxv-red px-3 py-1 rounded inline-block"
+              className="font-heading text-2xl font-bold tracking-tighter bg-white text-black inline-block"
             >
-              <span className="text-white">M.S Arden</span>
-              <span className="text-white text-sm block -mt-1">Consulting</span>
+              <span >M.S Arden</span>
             </a>
+            
             <p className="mt-2 text-sm text-gray-400">
               Creating exceptional financial experiences since 2020
             </p>
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between text-sm text-gray-400">
-          <p>© 2025 MXV. All rights reserved.</p>
+          <p>© 2025 M.S Arden. All rights reserved.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="hover:text-mxv-red transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-mxv-red transition-colors">Terms of Service</a>

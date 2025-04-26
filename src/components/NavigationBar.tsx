@@ -33,12 +33,10 @@ const NavigationBar: React.FC = () => {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <a 
             href="/" 
-            className="font-heading text-2xl font-bold tracking-tighter text-mxv-white bg-mxv-red px-3 py-1 rounded"
+            className="inline-block font-heading text-2xl font-bold tracking-tighter bg-white text-black"
           >
-            <span className="text-white">M.S Arden</span>
-            <span className="text-white text-sm block -mt-1">Consulting</span>
+            <span>M.S Arden</span>
           </a>
-          
           <button 
             className="text-mxv-white hover:text-mxv-red transition-colors z-50" 
             onClick={toggleMenu}
