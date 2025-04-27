@@ -16,7 +16,7 @@ const ContactSection: React.FC = () => {
             <div className="h-px w-16 bg-mxv-red mb-8"></div>
             
             <TextReveal 
-              text="Let's discuss how we can help bring your ideas to life. Reach out and our team will get back to you within 24 hours." 
+              text="Let's discuss how we can help bring your ideas to life. Reach out and we will get back to you within 12 hours." 
               className="text-xl mb-8 text-gray-300"
               tag="p"
               delay={200}
@@ -25,11 +25,7 @@ const ContactSection: React.FC = () => {
             <div className="space-y-4 mb-8">
               <div>
                 <p className="font-mono text-sm text-gray-400 mb-1">Email</p>
-                <a href="mailto:hello@mxv.in" className="text-lg hover:text-mxv-red transition-colors">hello@mxv.in</a>
-              </div>
-              <div>
-                <p className="font-mono text-sm text-gray-400 mb-1">Phone</p>
-                <a href="tel:+919876543210" className="text-lg hover:text-mxv-red transition-colors">+91 9876 543 210</a>
+                <a href="mailto:info@msarden.in" className="text-lg hover:text-mxv-red transition-colors">info@msarden.in</a>
               </div>
               <div>
                 <p className="font-mono text-sm text-gray-400 mb-1">Office</p>
@@ -69,7 +65,7 @@ const ContactSection: React.FC = () => {
                   placeholder="Your email"
                 />
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="message" className="block font-mono text-sm text-gray-400 mb-2">Message</label>
                 <textarea 

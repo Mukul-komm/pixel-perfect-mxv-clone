@@ -4,7 +4,7 @@ import TextReveal from './TextReveal';
 
 const HeroSection: React.FC = () => {
   return (
-    <section id="Hero" className="relative h-screen flex items-center bg-mxv-black text-mxv-white">
+    <section id="Hero" className="relative h-screen flex items-center bg-mxv-black text-mxv-white" >
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-mxv-black via-transparent to-mxv-black"></div>

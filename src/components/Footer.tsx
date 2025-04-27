@@ -22,11 +22,11 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-8">
             <nav>
               <ul className="flex space-x-6">
-                <li><a href="/" className="hover:text-mxv-red transition-colors">Home</a></li>
-                <li><a href="/work" className="hover:text-mxv-red transition-colors">Work</a></li>
-                <li><a href="/services" className="hover:text-mxv-red transition-colors">Services</a></li>
-                <li><a href="/about" className="hover:text-mxv-red transition-colors">About</a></li>
-                <li><a href="/contact" className="hover:text-mxv-red transition-colors">Contact</a></li>
+                <li><a href="#Hero" className="hover:text-mxv-red transition-colors">Home</a></li>
+                <li><a href="#services" className="hover:text-mxv-red transition-colors">Services</a></li>
+                <li><a href="#About" className="hover:text-mxv-red transition-colors">About Us</a></li>
+                <li><a href="#Work" className="hover:text-mxv-red transition-colors">Team</a></li>
+                <li><a href="#Contact" className="hover:text-mxv-red transition-colors">Contact Us</a></li>
               </ul>
             </nav>
             
