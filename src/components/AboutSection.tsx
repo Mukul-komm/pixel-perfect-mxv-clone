@@ -4,7 +4,7 @@ import TextReveal from './TextReveal';
 
 const AboutSection: React.FC = () => {
   return (
-    <section className="py-24 bg-mxv-black text-mxv-white">
+    <section id="About" className="py-24 bg-mxv-black text-mxv-white">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-4">
@@ -32,8 +32,8 @@ const AboutSection: React.FC = () => {
                 />
                 
                 <TextReveal 
-                text="Delivering practical, actionable solutions isn't just a goal, it's our commitment. We thrive on challenges and are relentlessly dedicated to your success, remaining by your side until your objectives are achieved." className="text-2xl md:text-3xl font-light leading-relaxed mb-8"
-                className="text-2xl md:text-3xl font-light leading-relaxed"
+                text="Delivering practical, actionable solutions isn't just a goal, it's our commitment. We thrive on challenges and are relentlessly dedicated to your success, remaining by your side until your objectives are achieved." 
+                className="text-2xl md:text-3xl font-light leading-relaxed mt-8 mb-10"
                 tag="p"
                 delay={600}
                 />

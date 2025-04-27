@@ -7,10 +7,21 @@ const NavigationBar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    document.body.style.overflow = isOpen ? 'auto' : 'hidden';
+      setIsOpen(!isOpen);
+      if(isOpen){
+        document.body.style.overflow = 'auto';
+      }
   };
 
+  const handleLinkClick = (url: string) => {
+      const targetId = url.substring(url.indexOf("#") + 1)
+        const targetElement = document.getElementById(targetId);
+        targetElement?.scrollIntoView({
+            behavior: 'smooth'
+          });
+      setIsOpen(false)
+      document.body.style.overflow = 'auto';
+  };
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -23,7 +34,7 @@ const NavigationBar: React.FC = () => {
     window.addEventListener('scroll', handleScroll);
     
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+        window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
@@ -51,18 +62,19 @@ const NavigationBar: React.FC = () => {
         <nav className="text-center">
           <ul className="space-y-8">
             {[
-              { name: 'Home', url: '/' },
-              { name: 'Work', url: '/work' },
-              { name: 'Services', url: '/services' },
-              { name: 'About', url: '/about' },
-              { name: 'Contact', url: '/contact' },
+                { name: 'Home', url: '#Hero' },
+                { name: 'Services', url: '#OurServices' },
+                { name: 'About', url: '#About' },
+                { name: 'Team', url: '#Work' },
+                { name: 'Contact', url: '#Contact' },
+               
             ].map((item) => (
-              <li key={item.name} className="overflow-hidden">
+              <li key={item.name} >
                 <a 
                   href={item.url} 
                   className="inline-block text-4xl md:text-6xl font-heading font-bold text-mxv-white hover:text-mxv-red transition-colors duration-300"
                   onClick={toggleMenu}
-                >
+                  onClick={() => handleLinkClick(item.url)}                >
                   <span className="inline-block relative">
                     {item.name}
                     <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-mxv-red transition-all duration-300 group-hover:w-full"></span>
@@ -74,10 +86,10 @@ const NavigationBar: React.FC = () => {
         </nav>
         
         <div className="absolute bottom-10 left-0 right-0 text-center text-mxv-white">
-          <p className="mb-2 text-sm font-mono">© 2025 MXV. All rights reserved.</p>
-          <div className="flex justify-center space-x-6">
+          <p className="mb-2 text-sm font-mono">© 2025 M.S Arden. All rights reserved.</p>
+          <div className="flex justify-center space-x-6">            
             <a href="#" className="hover:text-mxv-red transition-colors">Instagram</a>
-            <a href="#" className="hover:text-mxv-red transition-colors">Twitter</a>
+            <a href="#" className="hover:text-mxv-red transition-colors">Twitter</a> 
             <a href="#" className="hover:text-mxv-red transition-colors">LinkedIn</a>
           </div>
         </div>

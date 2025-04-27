@@ -54,18 +54,6 @@ const ServicesSection: React.FC = () => {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 text-center">
-          <a 
-            href="/services" 
-            className="inline-flex items-center text-lg font-medium hover:text-mxv-red transition-colors duration-300"
-          >
-            <span className="mr-2">Learn more about our services</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </a>
-        </div>
       </div>
     </section>
   );

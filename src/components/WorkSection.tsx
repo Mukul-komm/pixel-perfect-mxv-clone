@@ -36,7 +36,7 @@ const projects = [
 
 const WorkSection: React.FC = () => {
   return (
-    <section id="work" className="py-24 bg-mxv-white">
+    <section id="Work" className="py-24 bg-mxv-white">
       <div className="container mx-auto px-6 mb-16">
         <TextReveal 
           text="Selected Work" 
