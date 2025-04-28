@@ -27,7 +27,7 @@ const HeroSection: React.FC = () => {
           </p>
           
           <a 
-            href="#OurServices" 
+            href="#services" 
             className="inline-flex items-center text-lg group hover:text-mxv-red transition-colors duration-300"
           >
             <span className="mr-2">Explore our services</span>
