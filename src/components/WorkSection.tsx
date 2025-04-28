@@ -39,7 +39,7 @@ const WorkSection: React.FC = () => {
     <section id="Work" className="py-24 bg-mxv-white">
       <div className="container mx-auto px-6 mb-16">
         <TextReveal 
-          text="Selected Work" 
+          text="Team" 
           className="text-4xl md:text-5xl font-heading font-bold mb-4"
           tag="h2"
         />
