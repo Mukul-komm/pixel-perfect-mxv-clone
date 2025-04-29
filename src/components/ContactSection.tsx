@@ -30,9 +30,9 @@ const ContactSection: React.FC = () => {
               <div>
                 <p className="font-mono text-sm text-gray-400 mb-1">Office</p>
                 <address className="text-lg not-italic">
-                  123 Creative Studio, <br />
-                  Tech Park, Bangalore, <br />
-                  India - 560001
+                The Platina Survey, <br />
+                  Gachibowli Rd, Gachibowli, <br />
+                  Hyderabad 500032
                 </address>
               </div>
             </div>
