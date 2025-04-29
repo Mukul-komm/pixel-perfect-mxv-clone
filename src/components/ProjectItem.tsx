@@ -144,7 +144,7 @@ const TeamSection: React.FC = () => {
         {/* Optional footer text for the section */}
         <div className="mt-16 text-center">
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Our team combines expertise and passion to create a company that puts customers first. Hover over or focus on their images to learn more.
+            Our team combines expertise and passion to create a company that puts customers first.
           </p>
         </div>
       </div>
