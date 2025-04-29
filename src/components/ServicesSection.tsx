@@ -12,8 +12,8 @@ const services = [
     items: ["Financial Planning and Analysis", "Budgeting", "Cashflows", "Compliance"]
   },
   {
-    title: "Strategy",
-    items: ["Digital Strategy", "Content Strategy", "User Research", "Analytics & Optimization"]
+    title: "Management Consulting",
+    items: ["Go-To-Market Strategy", "Strategic Partnership", "Business Model Innovation", "Market Research"]
   }
 ];
 
