@@ -63,7 +63,7 @@ const NavigationBar: React.FC = () => {
           <ul className="space-y-8">
             {[
                 { name: 'Home', url: '#Hero' },
-                { name: 'Services', url: '#OurServices' },
+                { name: 'Services', url: '#services' },
                 { name: 'About', url: '#About' },
                 { name: 'Team', url: '#Work' },
                 { name: 'Contact', url: '#Contact' },
