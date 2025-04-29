@@ -97,7 +97,7 @@ const TeamSection: React.FC = () => {
     {
       name: "Mukul",
       title: "Founder & Consultant",
-      bio: "Alex has over 15 years of experience in the tech industry, passionate about creating innovative solutions.",
+      bio: "With a diverse skillset cultivated in the VC, Consumer, and Tech sectors, Mukul offers expertise spanning Business Valuation, Business Strategy, Investment Analysis, and Data Analysis. His central objective is to drive business growth alongside profitability.",
       imageSrc: "https://i.imgur.com/yqGm9CE.jpeg"
     },
     {
