@@ -29,7 +29,7 @@ const ServicesSection: React.FC = () => {
           />
           <div className="h-px w-16 bg-mxv-red mb-8"></div>
           <TextReveal 
-            text="We provide a comprehensive range of services to help brands thrive in the digital landscape." 
+            text="Partner with us for comprehensive consulting that empowers your brand to thrive in today's competitive arena" 
             className="text-xl max-w-3xl"
             tag="p"
             delay={200}
