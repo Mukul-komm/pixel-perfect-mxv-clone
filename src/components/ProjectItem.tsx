@@ -98,7 +98,7 @@ const TeamSection: React.FC = () => {
       name: "Mukul",
       title: "Founder & Consultant",
       bio: "Alex has over 15 years of experience in the tech industry, passionate about creating innovative solutions.",
-      imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=320&h=384&auto=format&fit=crop&ixlib=rb-4.0.3"
+      imageSrc: "https://i.imgur.com/yqGm9CE.jpeg"
     },
     {
       name: "Aman Saini",

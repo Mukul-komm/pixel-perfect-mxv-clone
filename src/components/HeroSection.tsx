@@ -6,21 +6,21 @@ const HeroSection: React.FC = () => {
   return (
     <section id="Hero" className="relative h-screen flex items-center bg-mxv-black text-mxv-white" >
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+        <div className="absolute inset-0 bg-grid-pattern opacity-2"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-mxv-black via-transparent to-mxv-black"></div>
       </div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold leading-tight mb-6">
-            Your culture is ours
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6">
+            Your partner in building ideas
           </h1>
           
           <div className="h-px w-24 bg-mxv-red mb-8"></div>
           
           <p className="text-xl md:text-2xl max-w-2xl mb-12 text-gray-300">
             <TextReveal 
-              text="MXV is a creative studio specializing in digital experiences, branding, and strategic design solutions for forward-thinking clients." 
+              text="At MS Arden, we help startups become investor-ready, manage their finances effectively. From valuations and cash flow planning to GTM strategy." 
               delay={400}
               tag="p"
             />
