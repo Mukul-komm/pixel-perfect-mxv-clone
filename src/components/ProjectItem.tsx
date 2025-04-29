@@ -103,8 +103,8 @@ const TeamSection: React.FC = () => {
     {
       name: "Aman Saini",
       title: "Co-Founder & Consultant",
-      bio: "Jamie brings extensive expertise in software architecture and building scalable enterprise systems.",
-      imageSrc: "https://i.imgur.com/uvExSi0.jpeg"
+      bio: "With an MBA from IIM Visakhapatnam, Aman specializes in FP&A, focusing on budgeting, cash flow, forecasting, and financial strategy. His passion lies in leveraging financial insights to drive business performance and achieve sustainable growth and profitability..",
+      imageSrc: "https://i.imgur.com/BQpeYOU.jpeg"
     },
     
   ];

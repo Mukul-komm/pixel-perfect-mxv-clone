@@ -13,10 +13,6 @@ const Footer: React.FC = () => {
             >
               <span >M.S Arden</span>
             </a>
-            
-            <p className="mt-2 text-sm text-gray-400">
-              Creating exceptional financial experiences since 2020
-            </p>
           </div>
           
           <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-8">
