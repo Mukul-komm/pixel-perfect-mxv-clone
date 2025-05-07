@@ -4,8 +4,8 @@ import TextReveal from './TextReveal';
 
 const services = [
   {
-    title: "Financial Consulting",
-    items: ["Valuation", "Investment Strategies", "Deal Sourcing", "Deal Negotiations"]
+    title: "Financial Transaction",
+    items: ["Business Valuation", "Financial Due Diligence", "Deal Sourcing", "Deal Negotiations"]
   },
   {
     title: "Corporate Finance",
@@ -29,7 +29,7 @@ const ServicesSection: React.FC = () => {
           />
           <div className="h-px w-16 bg-mxv-red mb-8"></div>
           <TextReveal 
-            text="Partner with us for comprehensive consulting that empowers your brand to thrive in today's competitive arena" 
+            text="Partner with us for comprehensive consulting be it Buy And Sell-Side, we can help ease the roadblock as a reliable partner" 
             className="text-xl max-w-3xl"
             tag="p"
             delay={200}
