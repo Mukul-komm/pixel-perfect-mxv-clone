@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6">
-            Your partner in building ideas
+            Partnering in your growth
           </h1>
           
           <div className="h-px w-24 bg-mxv-red mb-8"></div>
