@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
           
           <p className="text-xl md:text-2xl max-w-2xl mb-12 text-gray-300">
             <TextReveal 
-              text="At MS Arden, we help startups become investor-ready, manage their finances effectively. From valuations and cash flow planning to GTM strategy." 
+              text="At MS Arden, we help organization/individual in navigating the deal transaction with right level of quality and timeliness" 
               delay={400}
               tag="p"
             />
