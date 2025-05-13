@@ -4,8 +4,8 @@ import TextReveal from './TextReveal';
 
 const services = [
   {
-    title: "Financial Transaction",
-    items: ["Business Valuation", "Financial Due Diligence", "Deal Sourcing", "Deal Negotiations"]
+    title: "Transactions",
+    items: ["Business Valuation", "Financial Due Diligence", "Operational Due Dilligence", "Deal Negotiations"]
   },
   {
     title: "Corporate Finance",
