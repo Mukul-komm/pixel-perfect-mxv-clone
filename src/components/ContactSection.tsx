@@ -25,7 +25,7 @@ const ContactSection: React.FC = () => {
             <div className="space-y-4 mb-8">
               <div>
                 <p className="font-mono text-sm text-gray-400 mb-1">Email</p>
-                <a href="mailto:info@msarden.in" className="text-lg hover:text-mxv-red transition-colors">info@msarden.in</a>
+                <a href="mailto:mukulk@msarden.in" className="text-lg hover:text-mxv-red transition-colors">mukulk@msarden.in</a>
               </div>
               <div>
                 <p className="font-mono text-sm text-gray-400 mb-1">Office</p>
