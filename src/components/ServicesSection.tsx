@@ -4,12 +4,12 @@ import TextReveal from './TextReveal';
 
 const services = [
   {
-    title: "Transactions",
-    items: ["Business Valuation", "Financial Due Diligence", "Operational Due Dilligence", "Deal Negotiations"]
+    title: "Strategic Finance",
+    items: ["Financial Planning and Analysis", "Capital Allocation Strategy", "Fundraising and Capital Support", "Mergers and Acquisitions Support"]
   },
   {
-    title: "Corporate Finance",
-    items: ["Financial Planning and Analysis", "Budgeting", "Cashflows", "Compliance"]
+    title: "Operational Finance",
+    items: ["Working Capital Optimization", "Budgeting", "Cashflows", "Compliance"]
   },
   {
     title: "Management Consulting",
